@@ -37,6 +37,10 @@ export class DataBindingComponent implements OnInit {
     this.isMouseOver = !this.isMouseOver;
   }
 
+  postar() {
+    console.log('Post efetuado!');
+  }
+
   constructor() { }
 
   ngOnInit() {
