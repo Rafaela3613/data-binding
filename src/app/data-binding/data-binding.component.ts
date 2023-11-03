@@ -15,6 +15,7 @@ export class DataBindingComponent implements OnInit {
   valorAtual: string ='';
   valorSalvo: any;
   isMouseOver: boolean = false ;
+  nomeDoCurso: string = 'Angular';
 
   getValor () {
       return 1;
@@ -36,7 +37,6 @@ export class DataBindingComponent implements OnInit {
   onMouseOverOut(){
     this.isMouseOver = !this.isMouseOver;
   }
-
   postar() {
     console.log('Post efetuado!');
   }
