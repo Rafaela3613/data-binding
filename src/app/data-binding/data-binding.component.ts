@@ -43,6 +43,10 @@ export class DataBindingComponent implements OnInit {
     console.log('Post efetuado!');
   }
 
+  onMudouValor(evento: any) {
+    console.log(evento.novoValor);
+  }
+
   constructor() { }
 
   ngOnInit() {
